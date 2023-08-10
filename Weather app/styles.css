@@ -1,0 +1,93 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/beautiful-sky-above-clouds-u0ofc9zreozhh0nq.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+
+h1{
+ position: absolute;
+ top: 10%;
+ font-size: 60px;
+}
+
+.contenedor{
+   width: 450px;
+   height: 500px;
+   background: transparent;
+   border: 2px solid rgba(255,255,255,0.5);
+   border-radius: 20px;
+   backdrop-filter: blur(15px);
+   
+}
+
+.contenedor .iconos{
+    color: rgb(255, 247, 97);
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left:70%;
+}
+
+.contenedor .iconos #nube{
+    color: aliceblue;
+}
+
+input{
+    position: relative;
+    top: 40px;
+    left: 11%;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    flex: 1;
+    border-radius: 30px;
+    height: 60px;
+    width: 300px;
+}
+button{
+    position: relative;
+    top: 40px;
+    left: 15%;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    color:#ebfffc;
+    font-weight: 500;
+    font-size: 60px;
+}
+h2{
+    
+    color:#ebfffc;
+    margin-top: 350px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.weather-icon{
+    position: absolute;
+    left: 25%;
+    top:20%;
+}
